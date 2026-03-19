@@ -1,13 +1,17 @@
-// ex02 代码 - 第二次提交
-const int ledPin = 2;          // 定义板载LED引脚
-unsigned long previousMillis = 0; // 记录上一次变化的时间
-const long interval = 500;     // 间隔时间：500毫秒
+// ex03 代码 - 第一次提交
+const int ledPin = 2;
+
+// 定义闪烁时长（毫秒）
+const int dotDuration = 200;   // 短闪：嘀
+const int dashDuration = 600;  // 长闪：哒
+const int gapDuration = 200;   // 闪与闪之间的间隔
+const int letterGap = 1000;    // 字母间隔
+const int endPause = 2000;     // 结束长暂停
 
 void setup() {
-  pinMode(ledPin, OUTPUT);     
-  digitalWrite(ledPin, LOW);   
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
-  // 准备添加非阻塞延时逻辑
+  // 稍后在此处编写 SOS 逻辑
 }
